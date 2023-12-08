@@ -1,0 +1,326 @@
+/* 
+
+////// classes communes
+
+*/
+
+.d-flex {
+    display: flex;
+}
+.flexwrap {
+    flex-wrap: wrap;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-end {
+    align-items: end;
+}
+
+.align-content {
+    align-content: space-evenly;
+}
+
+.inlineblock {
+    display: inline-block;
+}
+
+/* alignement */
+
+.text-center {
+    text-align: center;
+}
+
+
+
+
+
+/* padding */
+
+.p05 {
+    padding: 0.5rem;
+}
+
+.p1 {
+    padding: 1rem;
+}
+
+.p2 {
+    padding: 2rem;
+}
+
+.m05 {
+    margin: 0.5rem;
+}
+
+.ml1 {
+    margin-left: 1rem;
+}
+
+.mr1 {
+    margin-right: 1rem;
+}
+
+.mt1 {
+    margin-top: 1rem;
+}
+
+.mt01 {
+    margin-top: 0.1rem;
+}
+
+.mt05 {
+    margin-top: 0.5rem;
+}
+.mb1 {
+    margin-bottom: 1rem;
+}
+
+/* LA FOLIE DU MARGING */
+
+.mbgrey {
+    margin-bottom: 250px;
+}
+
+
+
+
+/* Backgrounds color */
+
+.bg-red {
+    background-color: #c0392b;
+}
+
+.bg-grey {
+    background-color: #bdc3c7;
+}
+
+.bg-purple {
+    background-color: #8e44ad;
+}
+
+.bg-blue {
+    background-color:  #2c3e50;
+}
+
+.bg-orange {
+    background-color: #d35400;
+}
+
+.bg-white {
+    background-color: #ecf0f1;
+}
+
+/* RECTANGLES */
+
+.grandrectangle {
+    height: 40px;    
+}
+
+.moyenrectangle {
+    height: 20px;
+}
+
+
+.petitrectangle {
+    height: 10px;    
+}
+
+.toutpetitrectangle {
+    height: 5px;
+}
+
+/* CARRES */
+
+.petitcarre {
+    width: 40px;
+    height: 40px;
+    
+}
+
+.grandcarre {
+    width: 100px;
+    height: 100px;
+    
+}
+
+
+/* CERCLES */
+
+ .petitrond {
+    width: 100px;
+    height: 100px;
+    background-color:#c0392b ;
+    border-radius: 50px;
+    border: 1px solid white;
+ }
+
+
+
+
+
+/* WIDTH */
+
+.w100 {
+    width: 100%;
+}
+
+.w75 {
+    width: 75%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w15 {
+    width: 15%;
+}
+
+.w10 {
+    width: 10%;
+}
+
+
+
+
+
+
+
+/* WIDTH & HEIGHT */
+
+
+
+/* PADDING & MARGIN */
+
+
+
+
+/* HEADER */
+
+
+
+.border {
+    border: 1px solid black;
+}
+
+.borderwhite {
+    border: 1px solid rgba(255, 255, 255, 0.521);
+}
+
+
+/* BLOC 1 GAUCHE */
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+
+
+li::after {
+    content: "";
+    width: 300px;
+    height: 5px;
+    background-color: gray;
+    margin-left: 10px;
+}
+
+    
+
+
+li::before {content: "•";}
+
+
+li:nth-child(1)::before {
+    color: purple;
+  }
+
+  li:nth-child(2)::before {
+    color: red;
+  }
+
+  li:nth-child(3)::before {
+    color: blue;
+  }
+
+  li:nth-child(4)::before {
+    color: purple;
+  }
+
+  li:nth-child(5)::before {
+    color: purple;
+  }
+
+
+  /* SECTION SIZE */
+
+ .flex-basis {
+    width: 100vw;
+ }
+
+ .flex-basis section {
+    flex-basis: 20vw;
+ }
+
+ .flex-basis section:nth-of-type(2) {
+    flex-basis: 60vw;
+ }
+
+/* DEUXIEME TECHNIQUE AUTRE QUE LE FLEX-BASIC
+
+main section:nth-of-type(1) {
+    width: 20%
+}
+main section:nth-of-type(2) {
+    width: 60%
+}
+main section:nth-of-type(3) {
+    width: 20%
+}
+*/
+
+
+/*  768 pour tablette pour le reponsive */
+
+/* 1440 pour les grands ecrans */
